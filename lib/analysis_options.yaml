@@ -4,6 +4,9 @@ analyzer:
     implicit-casts: false
     implicit-dynamic: false
   errors:
+    # Otherwise cause the import of all_lint_rules to warn because of some rules conflicts.
+    # The conflicts are fixed in this file instead, so we can safely ignore the warning.
+    included_file_warning: ignore
     missing_required_param: error
     missing_return: error
   exclude:
@@ -13,6 +16,10 @@ analyzer:
     - "**/*.freezed.dart"
 linter:
   rules:
+    # for json cast
+    avoid_as: false
+    # for constants, enum-like types class
+    avoid_classes_with_only_static_members: false
     # use single quotes.
     prefer_double_quotes: false
     # there is no reason to write docs.
@@ -25,13 +32,13 @@ linter:
     lines_longer_than_80_chars: false
     # use prefer_relative_imports
     # https://dart-lang.github.io/linter/lints/always_use_package_imports.html
-    always_use_package_imports: false
+    prefer_relative_imports: false
     # Usually, the types can be easily inferred
     # https://dart-lang.github.io/linter/lints/omit_local_variable_types.html
     always_specify_types: false
     # use final
     # https://dart-lang.github.io/linter/lints/unnecessary_final.html
     unnecessary_final: false
-    # use when flavor and build type
+    # use for flavor and build type
     # https://dart-lang.github.io/linter/lints/do_not_use_environment.html
     do_not_use_environment: false
