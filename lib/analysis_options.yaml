@@ -42,3 +42,7 @@ linter:
     # use for flavor and build type
     # https://dart-lang.github.io/linter/lints/do_not_use_environment.html
     do_not_use_environment: false
+    # It's not something we should do.
+    # When we can do it in programming, make it true
+    # https://dart-lang.github.io/linter/lints/sort_pub_dependencies.html
+    sort_pub_dependencies: false
