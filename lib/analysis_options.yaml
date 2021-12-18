@@ -49,7 +49,7 @@ linter:
     # use json convert
     # https://dart-lang.github.io/linter/lints/avoid_annotating_with_dynamic.html
     avoid_annotating_with_dynamic: false
-      # already have a warning
-      # https://dart-lang.github.io/linter/lints/prefer_final_parameters.html
-      # incompatible with: https://dart-lang.github.io/linter/lints/avoid_final_parameters.html
-      prefer_final_parameters: false
+    # already have a warning
+    # https://dart-lang.github.io/linter/lints/prefer_final_parameters.html
+    # incompatible with: https://dart-lang.github.io/linter/lints/avoid_final_parameters.html
+    prefer_final_parameters: false
