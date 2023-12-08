@@ -1,14 +1,13 @@
 # dart_lint
 
-A new Flutter package.
+Flutter プロジェクト用の Dart の リントルール。
+自前のリントルールを設定する。
+方針としては、`` に全てのリントルールを追加し、必要ないルールは`analysis_options`で無効にする。
+all_lint_rules.yaml の内容は下記で確認することができる。
+https://dart.dev/tools/linter-rules/all
 
-## Getting Started
+# メモ
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+- flutter のバージョン管理
+  - fvm を使用してる
+  - vscode にバージョンを指定してる
