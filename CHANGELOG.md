@@ -1,3 +1,5 @@
-## [0.0.1] - TODO: Add release date.
+## [2.0.3] Flutter 3.16.3 対応
 
-* TODO: Describe initial release.
+- 3.16.3
+- lint ルールの追加
+- 新しくなった設定の追従
