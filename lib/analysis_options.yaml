@@ -69,3 +69,6 @@ linter:
     # `unawaited`をつけることで、コードがみづらくなるため
     # https://dart.dev/tools/linter-rules/unawaited_futures
     unawaited_futures: false
+    # 使い方によっては、Futureを捨てることがあるため
+    # https://dart.dev/tools/linter-rules/discarded_futures
+    discarded_futures: false
