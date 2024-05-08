@@ -66,3 +66,6 @@ linter:
     # final _name = name ?? hoge.nameのように宣言したいケースが存在するため
     # https://dart.dev/tools/linter-rules/no_leading_underscores_for_local_identifiers
     no_leading_underscores_for_local_identifiers: false
+    # `unawaited`をつけることで、コードがみづらくなるため
+    # https://dart.dev/tools/linter-rules/unawaited_futures
+    unawaited_futures: false
