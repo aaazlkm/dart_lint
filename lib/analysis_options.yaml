@@ -4,6 +4,8 @@ analyzer:
     # Otherwise cause the import of all_lint_rules to warn because of some rules conflicts.
     # The conflicts are fixed in this file instead, so we can safely ignore the warning.
     included_file_warning: ignore
+    # 依存関係にgitリポジトリを指定しているため。Publishable packages can't have 'git' dependenciesと表示される
+    invalid_dependency: ignore
     missing_required_param: error
     missing_return: error
   exclude:
