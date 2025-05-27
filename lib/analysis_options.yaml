@@ -74,3 +74,15 @@ linter:
     # 使い方によっては、Futureを捨てることがあるため
     # https://dart.dev/tools/linter-rules/discarded_futures
     discarded_futures: false
+    # omit_obvious_local_variable_typesを優先する
+    # https://dart.dev/tools/linter-rules/specify_nonobvious_local_variable_types
+    specify_nonobvious_local_variable_types: false
+    # omit_obvious_property_typesを優先する
+    # https://dart.dev/tools/linter-rules/specify_nonobvious_property_types
+    specify_nonobvious_property_types: false
+    #prefer_for_elements_to_map_fromIterableを優先する
+    # https://dart.dev/tools/linter-rules/prefer_for_elements_to_map_fromIterable
+    prefer_foreach: false
+    # getterが必要ないケースもあるため
+    # https://dart.dev/tools/linter-rules/avoid_setters_without_getters
+    avoid_setters_without_getters: false
