@@ -86,3 +86,6 @@ linter:
     # getterが必要ないケースもあるため
     # https://dart.dev/tools/linter-rules/avoid_setters_without_getters
     avoid_setters_without_getters: false
+    # 対応が大変なため & ここまでチェックする必要を感じないため
+    # https://dart.dev/tools/linter-rules/unsafe_variance
+    unsafe_variance: false
