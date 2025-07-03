@@ -77,9 +77,9 @@ linter:
     # omit_obvious_local_variable_typesを優先する
     # https://dart.dev/tools/linter-rules/specify_nonobvious_local_variable_types
     specify_nonobvious_local_variable_types: false
-    # omit_obvious_property_typesを優先する
-    # https://dart.dev/tools/linter-rules/specify_nonobvious_property_types
-    specify_nonobvious_property_types: false
+    # specify_nonobvious_property_typesを優先する
+    # https://dart.dev/tools/linter-rules/omit_obvious_property_types
+    omit_obvious_property_types: false
     #prefer_for_elements_to_map_fromIterableを優先する
     # https://dart.dev/tools/linter-rules/prefer_for_elements_to_map_fromIterable
     prefer_foreach: false
