@@ -95,6 +95,3 @@ linter:
     # setter以外からプロパティを変更することもあるため
     # https://dart.dev/tools/diagnostics/use_setters_to_change_properties
     use_setters_to_change_properties: false
-    # コードが簡潔でわかりやすいため
-    # https://dart.dev/tools/diagnostics/always_put_control_body_on_new_line
-    always_put_control_body_on_new_line: false
