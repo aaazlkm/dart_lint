@@ -92,3 +92,7 @@ linter:
     # setter以外からプロパティを変更することもあるため
     # https://dart.dev/tools/diagnostics/use_setters_to_change_properties
     use_setters_to_change_properties: false
+formatter:
+  # trailing commaを保持する（Dart 3.7以降の自動削除を防ぐ）
+  # issue: https://github.com/dart-lang/dart_style/issues/1652
+  trailing_commas: preserve
